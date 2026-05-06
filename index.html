@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Student Portal</h1>
+
+        <!-- Input Form -->
+        <div class="form-box">
+
+            <h2>Enter Student Details</h2>
+
+            <input type="text" id="name" placeholder="Enter Name">
+
+            <input type="number" id="age" placeholder="Enter Age">
+
+            <input type="email" id="email" placeholder="Enter Email">
+
+            <input type="text" id="city" placeholder="Enter City">
+
+            <input type="text" id="college" placeholder="Enter College Name">
+
+            <input type="text" id="branch" placeholder="Enter Branch">
+
+            <input type="text" id="semester" placeholder="Enter Semester">
+
+            <input type="text" id="cgpa" placeholder="Enter CGPA">
+
+            <button onclick="displayData()">Submit</button>
+
+        </div>
+
+        <!-- Output Section -->
+        <div class="output-box">
+
+            <h2>Student Information</h2>
+
+            <p><strong>Name:</strong> <span id="showName"></span></p>
+
+            <p><strong>Age:</strong> <span id="showAge"></span></p>
+
+            <p><strong>Email:</strong> <span id="showEmail"></span></p>
+
+            <p><strong>City:</strong> <span id="showCity"></span></p>
+
+            <p><strong>College:</strong> <span id="showCollege"></span></p>
+
+            <p><strong>Branch:</strong> <span id="showBranch"></span></p>
+
+            <p><strong>Semester:</strong> <span id="showSemester"></span></p>
+
+            <p><strong>CGPA:</strong> <span id="showCGPA"></span></p>
+
+        </div>
+
+    </div>
+
+    <!-- JS Link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
